@@ -35,5 +35,5 @@ Features:
 
 Notes:
 - All resistors are 1%.
-- RGB Attenuation resistors R1, R2, R3 can be changed to 24 Ohm, and termination resistors R6, R7, R8 to 51 Ohm for �proper� 75 Ohm termination.
+- RGB Attenuation resistors R1, R2, R3 can be changed to 24 Ohm, and termination resistors R6, R7, R8 to 51 Ohm for "proper" 75 Ohm termination.
 - R4,R5,C4 CSYNC termination may be not required and omitted with JP1 solder jumper bridged.
