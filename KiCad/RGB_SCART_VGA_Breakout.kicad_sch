@@ -5,7 +5,7 @@
 	(uuid "68fd9c82-1ac8-45e6-ae1d-151bc883ecd1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:DE15_Socket_HighDensity_MountingHoles"
+		(symbol "Connector:DE15_Socket_HighDensity"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(property "Value" "DE15_Socket_HighDensity"
 				(at 0 19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -57,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(symbol "DE15_Socket_HighDensity_MountingHoles_0_1"
+			(symbol "DE15_Socket_HighDensity_0_1"
 				(polyline
 					(pts
 						(xy -3.81 17.78) (xy -3.81 -15.24) (xy 3.81 -12.7) (xy 3.81 15.24) (xy -3.81 17.78)
@@ -329,7 +329,7 @@
 					)
 				)
 			)
-			(symbol "DE15_Socket_HighDensity_MountingHoles_1_1"
+			(symbol "DE15_Socket_HighDensity_1_1"
 				(pin passive line
 					(at -7.62 10.16 0)
 					(length 5.08)
@@ -593,24 +593,6 @@
 						)
 					)
 					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 90)
-					(length 3.81)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2929,24 +2911,24 @@
 		(uuid "1c031bfe-055b-484c-ba11-7b73d525c2c6")
 	)
 	(no_connect
-		(at 78.74 83.82)
-		(uuid "24f55ef5-73eb-4642-82b1-c11394e4abdb")
+		(at 93.98 101.6)
+		(uuid "21939f4b-68ac-4c47-89f3-7e1121953c68")
+	)
+	(no_connect
+		(at 93.98 81.28)
+		(uuid "29c68fb9-d0d4-4cfb-a32a-8081687a804f")
 	)
 	(no_connect
 		(at 162.56 99.06)
 		(uuid "3653df67-cf20-4842-8a5d-7aa2120abd14")
 	)
 	(no_connect
-		(at 93.98 86.36)
-		(uuid "427077cb-daeb-48b0-94b8-ab5bf2ab9492")
+		(at 93.98 96.52)
+		(uuid "435a40ea-999a-4680-b93c-1799428a7049")
 	)
 	(no_connect
 		(at 162.56 83.82)
 		(uuid "5414ae00-c605-4ad8-9893-d441619a4b99")
-	)
-	(no_connect
-		(at 93.98 96.52)
-		(uuid "59f39ad4-057c-4cd8-81cc-1c1bbffb0a00")
 	)
 	(no_connect
 		(at 162.56 93.98)
@@ -2961,20 +2943,12 @@
 		(uuid "81e55f9a-e68c-406e-b374-ce7983bd282a")
 	)
 	(no_connect
-		(at 86.36 109.22)
-		(uuid "a59b6019-b12c-4d08-8f08-f8597c5a512f")
-	)
-	(no_connect
 		(at 132.08 116.84)
 		(uuid "ac93418f-2871-46f5-9357-79237bfade5d")
 	)
 	(no_connect
-		(at 93.98 101.6)
-		(uuid "c0da8735-66ce-40ae-bfee-d7e277ed27c3")
-	)
-	(no_connect
-		(at 93.98 81.28)
-		(uuid "dfce9ef7-9007-4e98-b17c-11f0b15c9aca")
+		(at 78.74 86.36)
+		(uuid "b989c124-b88e-4f49-a76d-bcdd10815bf6")
 	)
 	(wire
 		(pts
@@ -2988,33 +2962,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 86.36) (xy 78.74 86.36)
+			(xy 63.5 96.52) (xy 78.74 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "38427c8e-5181-4086-9c22-eddf38fe29b9")
+		(uuid "2d2b58af-bd3e-4078-ab98-3a529298050c")
 	)
 	(wire
 		(pts
-			(xy 63.5 99.06) (xy 78.74 99.06)
+			(xy 63.5 91.44) (xy 78.74 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a440210-b607-4891-b99d-f07b80b282a0")
+		(uuid "56854cf2-94d1-4954-a033-092b0fb0d311")
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 93.98 91.44)
+			(xy 72.39 99.06) (xy 78.74 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72d716b5-7c50-467e-8138-156a5f9b6390")
+		(uuid "7a82d676-70f8-4046-90d3-58acef48b7e8")
 	)
 	(wire
 		(pts
@@ -3028,46 +3002,46 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 88.9) (xy 78.74 88.9)
+			(xy 93.98 91.44) (xy 109.22 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abc37455-486e-4812-8c92-763826cd44f2")
+		(uuid "9b57545a-a73c-4d0d-b96f-042c8660d90d")
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 78.74 96.52)
+			(xy 63.5 101.6) (xy 78.74 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d070c03f-79cf-4326-afb5-19de575dabdd")
+		(uuid "a691ccb5-7232-4d7f-b396-e1640c239443")
 	)
 	(wire
 		(pts
-			(xy 63.5 93.98) (xy 78.74 93.98)
+			(xy 71.12 88.9) (xy 78.74 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6a22788-5be3-4f0e-8df9-665ccb82aa63")
+		(uuid "ea37ccea-c41c-4c43-bdd2-21b77d6584e8")
 	)
 	(wire
 		(pts
-			(xy 72.39 91.44) (xy 78.74 91.44)
+			(xy 72.39 93.98) (xy 78.74 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e68ecc8c-9740-437b-a140-e6154e4e3940")
+		(uuid "ee46ed5b-3e42-4406-8337-5fcbeff4df91")
 	)
 	(label "GREEN"
-		(at 63.5 93.98 180)
+		(at 63.5 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3177,7 +3151,7 @@
 		(uuid "5413e5d8-ace5-47cd-ab5a-2d991ab072db")
 	)
 	(label "VGA_R"
-		(at 78.74 99.06 180)
+		(at 78.74 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3197,7 +3171,7 @@
 		(uuid "5b1ca15f-4fe5-4274-bc10-3d9a6417c6c7")
 	)
 	(label "VGA_G"
-		(at 78.74 93.98 180)
+		(at 78.74 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3207,7 +3181,7 @@
 		(uuid "5c3ad4a9-75cc-4230-89da-36dfe9b633af")
 	)
 	(label "BLANKING"
-		(at 63.5 86.36 180)
+		(at 63.5 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3267,7 +3241,7 @@
 		(uuid "9c807358-763a-49cd-a9fe-ca857c5f6cb2")
 	)
 	(label "VGA_5V"
-		(at 78.74 86.36 180)
+		(at 78.74 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3297,7 +3271,7 @@
 		(uuid "acffdf08-ff61-424c-aa5a-f4b2116a80da")
 	)
 	(label "BLUE"
-		(at 63.5 88.9 180)
+		(at 63.5 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3321,7 @@
 		(uuid "c2309bd2-0c82-496f-8078-23838b841b91")
 	)
 	(label "VGA_B"
-		(at 78.74 88.9 180)
+		(at 78.74 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3417,7 +3391,7 @@
 		(uuid "e5c2e385-4c5f-45f6-87f6-cc6723c2bce7")
 	)
 	(label "RED"
-		(at 63.5 99.06 180)
+		(at 63.5 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3537,7 +3511,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 67.31 86.36 0)
+		(at 67.31 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3548,16 +3522,6 @@
 		(fields_autoplaced yes)
 		(uuid "098d4961-dc17-4363-b3a3-dc6d68e12724")
 		(property "Reference" "D1"
-			(at 66.9925 80.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54W"
 			(at 66.9925 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3567,8 +3531,18 @@
 				)
 			)
 		)
+		(property "Value" "BAT54W"
+			(at 66.9925 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 67.31 86.36 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3579,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 86.36 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3590,7 +3564,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 67.31 86.36 0)
+			(at 67.31 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3694,164 +3668,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d921fe6-7b36-4fed-ac0d-cca95c0bc54a")
-		(property "Reference" "#PWR073"
-			(at 72.39 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 101.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4dee39e6-5667-4b8b-8030-d112c98a2911")
-		)
-		(instances
-			(project "RGB_SCART_VGA_Breakout"
-				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 96.52 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fcef95b-bb0b-4caf-80a6-b1ddd95383a8")
-		(property "Reference" "#PWR074"
-			(at 66.04 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 96.5199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "556afbab-b678-442a-85f3-d8bbea771d4f")
-		)
-		(instances
-			(project "RGB_SCART_VGA_Breakout"
-				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
-					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x09")
 		(at 35.56 81.28 0)
 		(unit 1)
@@ -3949,6 +3765,85 @@
 			(project "RGB_SCART_VGA_Breakout"
 				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 81.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20baea03-5233-484c-9a94-6cf797c3ffdc")
+		(property "Reference" "#PWR020"
+			(at 72.39 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e22a1103-6bfc-4708-8cc4-5eb6e6ac732e")
+		)
+		(instances
+			(project "RGB_SCART_VGA_Breakout"
+				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4210,10 +4105,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cbfa078-38dd-4406-a655-69d9c9e7e228")
 		(property "Reference" "C2"
-			(at 104.14 26.67 90)
+			(at 103.632 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4223,7 +4117,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 104.14 29.21 90)
+			(at 103.632 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4514,85 +4408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 78.74 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "691660c7-7b5b-45bb-98ee-3ab8878a1db0")
-		(property "Reference" "#PWR072"
-			(at 72.39 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 74.93 81.2799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86f9f6d3-f0ef-4ca8-b74f-bced81313ff9")
-		)
-		(instances
-			(project "RGB_SCART_VGA_Breakout"
-				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
-					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 107.95 38.1 180)
 		(unit 1)
@@ -4676,7 +4491,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 78.74 270)
+		(at 78.74 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4685,9 +4500,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e5140f4-45f7-4d89-b5bd-83f6fab62f05")
-		(property "Reference" "#PWR070"
-			(at 72.39 78.74 0)
+		(uuid "6e3a69f1-b40f-423a-8ec9-a2eeaa7c2de3")
+		(property "Reference" "#PWR021"
+			(at 72.39 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4698,7 +4513,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 78.7399 90)
+			(at 74.93 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4709,7 +4524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 78.74 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4720,7 +4535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 78.74 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4731,7 +4546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 78.74 0)
+			(at 78.74 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,12 +4557,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4b12cc7b-c1e7-4237-9dc9-0593bd3e492c")
+			(uuid "b22ce855-a2c3-4391-af98-c30a78f6eca8")
 		)
 		(instances
 			(project "RGB_SCART_VGA_Breakout"
 				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
-					(reference "#PWR070")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -5148,6 +4963,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "981f8e4d-51d8-4bcf-b40a-d9d8124ade85")
+		(property "Reference" "#PWR025"
+			(at 72.39 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e29daa2f-b08b-4d29-95eb-846a4f70eb17")
+		)
+		(instances
+			(project "RGB_SCART_VGA_Breakout"
+				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 35.56 57.15 0)
 		(unit 1)
@@ -5470,6 +5364,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 72.39 99.06 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac41b071-cd2a-4abf-b987-9a717005de45")
+		(property "Reference" "#PWR024"
+			(at 66.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 99.0599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9680893a-1c0e-4ed7-bf80-034f11bf1496")
+		)
+		(instances
+			(project "RGB_SCART_VGA_Breakout"
+				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 74.93 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5716,10 +5689,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bebfa87a-f886-49f1-b217-883729ea4e99")
 		(property "Reference" "C1"
-			(at 71.12 26.67 90)
+			(at 70.612 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5729,7 +5701,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 29.21 90)
+			(at 70.612 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5945,8 +5917,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(lib_id "Connector:DE15_Socket_HighDensity")
 		(at 86.36 91.44 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5954,10 +5927,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c78ec622-570a-48eb-a11e-ca441220e020")
 		(property "Reference" "J3"
-			(at 86.36 68.58 0)
+			(at 86.36 74.422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5967,7 +5939,7 @@
 			)
 		)
 		(property "Value" "DE15_Plug_HighDensity_MountingHoles"
-			(at 86.36 71.12 0)
+			(at 86.36 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5977,7 +5949,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Horizontal_P2.29x1.90mm_EdgePinOffset3.03mm_Housed_MountingHolesOffset4.94mm"
-			(at 62.23 81.28 0)
+			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5988,7 +5960,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 81.28 0)
+			(at 62.23 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5998,7 +5970,7 @@
 				)
 			)
 		)
-		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector"
 			(at 86.36 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6035,9 +6007,6 @@
 		)
 		(pin "10"
 			(uuid "d156d5b2-0019-4fb9-8f68-6a4fe818e978")
-		)
-		(pin "SH"
-			(uuid "37a8bde1-0049-44a3-b160-045d7ba2c686")
 		)
 		(pin "5"
 			(uuid "c565a434-9412-4ba6-8815-6bc993de3d99")
@@ -6222,85 +6191,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 72.39 91.44 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6340e9b-dd8d-47d7-a04f-6078690e40a0")
-		(property "Reference" "#PWR075"
-			(at 66.04 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 91.4399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "efebf172-8495-4b06-8a76-ab4f67ca0b3d")
-		)
-		(instances
-			(project "RGB_SCART_VGA_Breakout"
-				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
-					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 107.95 30.48 0)
 		(unit 1)
@@ -6459,6 +6349,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 93.98 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d853475c-dade-4210-b45e-b786a29c8f66")
+		(property "Reference" "#PWR022"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd68a045-7c42-4d4a-a0dc-ac2b073ceb5c")
+		)
+		(instances
+			(project "RGB_SCART_VGA_Breakout"
+				(path "/68fd9c82-1ac8-45e6-ae1d-151bc883ecd1"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 34.29 90)
 		(unit 1)
@@ -6468,10 +6437,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ea1cbfaf-0a02-49da-b9a7-ae67448c3d4d")
 		(property "Reference" "C3"
-			(at 137.16 26.924 90)
+			(at 136.652 26.924 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6481,7 +6449,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 137.16 29.464 90)
+			(at 136.652 29.464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
