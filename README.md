@@ -34,11 +34,25 @@ Features:
 |J1|SCART-F|CS-102 (SCART-21S)|1|
 |J3|DE15 Socket / DSUB-15-HD / VGA| DSUB-15-HD_Socket_Horizontal P2.29x1.90mm EdgePinOffset3.03mm MountingHolesOffset4.94mm|1|
 |J11|SJ1-3535NG|CUI/Same Sky Device SJ1-3535NG|1|
-|R1,R2,R3|30R|0805|3|
-|R6,R7,R8|75R|0805|3|
+|R1,R2,R3|0R/24R/30R|0805|3|
+|R6,R7,R8|75R/51R|0805|3|
 |R9,R10|510R|0805|2|
 |J2|Mini-DIN 4 pin socket||1|
+|R11|1K/1K2/4K7|0805|1|
+|R12|2.3K/2K8/10K|0805|1|
 
 Notes:
 - All resistors are 1%.
-- RGB Attenuation resistors R1, R2, R3 can be changed to 24 Ohm, and termination resistors R6, R7, R8 to 51 Ohm for "proper" 75 Ohm termination.
+- RGB termination / voltage divider resistors values are depending on monitor jungle (chroma/deflection) IC. 
+For jungle ICs with 0.7Vpp RGB inputs (like TDA8366):
+R1, R2, R3: 0 Ohm,
+R6, R7, R8: 75 Ohm.
+For jungle ICs with 0.5Vpp RGB inputs (like TA1276AN):
+R1, R2, R3: 32 Ohm,
+R6, R7, R8: 75 Ohm.
+Attenuation / divider resistors R1, R2, R3 can be changed to 24 Ohm, and termination resistors R6, R7, R8 to 51 Ohm for “proper” 75 Ohm termination.
+- Blanking voltage divider / pulldown resistors values are depends on jungle IC requirements.
+For 3V inputs use R11=1K/1.2K, R12=2.3K/2.8K, and so on.
+Some ICs require pulldown R12=10~50K.
+R12 can be omitted but R11=120R~180R is recommended to limit current.
+- More info on Blanking voltage divider: [sector.sunthar.com/guides/crt-rgb-mod](https://sector.sunthar.com/guides/crt-rgb-mod/rgb-mux.html#how-to-use-the-voltage-divider-on-the-board)
