@@ -48,7 +48,7 @@ For jungle ICs with 0.7Vpp RGB inputs (like TDA8366):<br>
 R1, R2, R3: 0 Ohm,<br>
 R6, R7, R8: 75 Ohm.<br>
 For jungle ICs with 0.5Vpp RGB inputs (like TA1276AN):<br>
-R1, R2, R3: 32 Ohm,<br>
+R1, R2, R3: 30 Ohm,<br>
 R6, R7, R8: 75 Ohm.<br>
 Attenuation / divider resistors R1, R2, R3 can be changed to 24 Ohm, and termination resistors R6, R7, R8 to 51 Ohm for "proper" 75 Ohm termination.
 - Blanking voltage divider / pulldown resistors values are depends on jungle IC requirements.<br>

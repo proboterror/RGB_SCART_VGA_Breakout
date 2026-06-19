@@ -3227,7 +3227,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "For jungle ICs with 0.7Vpp RGB inputs (like TDA8366):\nR1, R2, R3: 0 Ohm,\nR6, R7, R8: 75 Ohm.\n\nFor jungle ICs with 0.5Vpp RGB inputs (like TA1276AN):\nR1, R2, R3: 32 Ohm,\nR6, R7, R8: 75 Ohm.\nAttenuation / divider resistors R1, R2, R3 can be changed to 24 Ohm, \nand termination resistors R6, R7, R8 to 51 Ohm\nfor “proper” 75 Ohm termination."
+	(text "For jungle ICs with 0.7Vpp RGB inputs (like TDA8366):\nR1, R2, R3: 0 Ohm,\nR6, R7, R8: 75 Ohm.\n\nFor jungle ICs with 0.5Vpp RGB inputs (like TA1276AN):\nR1, R2, R3: 30 Ohm,\nR6, R7, R8: 75 Ohm.\nAttenuation / divider resistors R1, R2, R3 can be changed to 24 Ohm, \nand termination resistors R6, R7, R8 to 51 Ohm\nfor “proper” 75 Ohm termination."
 		(exclude_from_sim no)
 		(at 111.506 32.004 0)
 		(effects
